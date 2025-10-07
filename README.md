@@ -36,7 +36,7 @@ The purposes of this project is to look into different features to observe their
 **Findings from Model training and evaluation:**
 
 The models used for training the data are **Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor and Gradient Boost Regressor**.
-The Cross Validation Results interpretation of the Hyperparameter tuned models are as below:
+The Cross Validation Results interpretation of the Hyperparameter tuned models are as below:<br>
 **1. Overall Model Ranking and Selection** <br>
 
 *  **Best Model:** The **Gradient Boost Regressor (GBR)** achieved the lowest error after tuning, with a Mean RMSE of $4587.45. This confirms it's the optimal model for this dataset.
