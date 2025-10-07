@@ -1,8 +1,8 @@
 # **Predicting Medical Insurance Cost for an Insurance Company**
 
-**Sreela Gopi**
+✍ **Sreela Gopi**
 
-## **Executive Summary**
+## 📋 **Executive Summary**
 
 #### **Project Goal:**
 The goal of this project is to build a Machine Learning model that can predict medical expenses for customers for an Insurance company and provide insights into the major factors that contribute to higher insurance costs.
@@ -10,7 +10,7 @@ The goal of this project is to build a Machine Learning model that can predict m
 #### **Problem Context:**
 Insurance companies invests a lot of time, effort, and money in creating models that accurately predicts health care costs.
 The purposes of this project is to look into different features to observe their relationship to predict individual medical costs billed by health insurance.
-### **Findings**
+### 📊 **Findings**
 
 **Findings from Exploratory Data Analysis(EDA)**
 1. **Age**: The distribution of age is quite varied.The average age of policy holders is 39 years. The data shows a wide range from a minimum of 18 to a maximum of 64 years.
@@ -61,7 +61,7 @@ Test set forpermance of the best model selected Gradient Boost Regressor is as b
 * A test RMSE of 4,358.44 and a test MAE of 2,507.68 are both very strong indicators of a high-performing model. It demonstrates that our chosen model, the Gradient Boosting Regressor, is both accurate on average and robust enough to handle the complexity and variability in the data.
 * A R2 score of 0.8966 explains nearly 90% of the variance in the target variable insurance charges. This is an excellent result and confirms that the feature engineering and the model's complex structure are highly successful in fitting the underlying patterns of the data.
 
-### **Actionable Insights to Business**
+### 💡 **Actionable Insights to Business**
 **Actionable Insights from Univariate Analysis:**<br>
 1. **Charges**: The insurance company should focus on risk management for high-cost individuals. Since a small portion of the policyholders accounts for a disproportionately large share of the total medical costs, developing targeted programs for those groups could significantly reduce overall payout.
 2. **Age**: The age distribution of policyholders is fairly even. So the compoany's marketing strategies must be appealing to all age groups.
@@ -91,7 +91,7 @@ The company must ensure these successful features are consistently collected and
 5. **Standardize on GBR**: The evaluation proves the Gradient Boost Regressor is the best model. All future analytical development should prioritize GBR models.
 6. **Avoid Excessive Feature selection:** The decrease of performance after feature selection suggests that even features with low individual importance still contribute collectively to the final, optimal result. So, The Insurance company should continue to use the full feature set for deployment to maintain the highest accuracy (R^2=0.8966) and avoid sacrificing predictive power for minimal simplicity gains.
 
-## **Rationale**
+## 🎯 **Rationale**
 The rationale for this Medical Insurance Prediction data problem is primarily driven by the need for accurate financial forecasting and risk assessment within the healthcare and insurance industries. The core objective is to predict the cost of medical claims (charges) for individuals based on their demographic and health-related features and thus achieve:
 
 *  **Accurate Premium Pricing**: By accurately predicting the average annual medical charges, the company can set competitive premiums that are high enough to cover costs but low enough to attract customers.
@@ -99,19 +99,19 @@ The rationale for this Medical Insurance Prediction data problem is primarily dr
 
 * **Business Strategy**: Help companies plan and execute targeted marketing strategies.
 
-## **Research Question**
+## 🔎 **Research Question**
 
 This whole project could be boiled down to the following research question:
 
 * **What contributes to a higher insurance cost?**
 
 
-## **Data Sources**
+## 🗂️ **Data Sources**
 The dataset used in this project is sourced from Kaggle and can be accessed at
 https://www.kaggle.com/datasets/rahulvyasm/medical-insurance-cost-prediction
 
 
-## **Methodology**
+## ⚙️ **Methodology**
 
 This project follows **CRISP-DM** framework. The methodologies used within this framework are:
 1. **Data Understanding**
@@ -129,7 +129,7 @@ This project follows **CRISP-DM** framework. The methodologies used within this 
 4. **Evaluation**:
   * **Evaluation Metrics**: RMSE, MAE, R^2
 
-## **Results**
+## 📈 **Results**
 Here is the detailed comparison and interpretation of the Cross Validation results before and after hyperparameter tuning,  and selecting the best performing model.<br>
 ![Alt text](images/tuning_compare.png)<br>
 
@@ -167,18 +167,18 @@ Below is the test set performance across all model stages.<br>
 
 **3. Feature Selection Trade-off**: The GBR - SHAP Reduced model (red bar) is visibly worse (higher RMSE/MAE and lower R^2) than the GBR - Tuned (Best) model. This shows that even the features with the lowest SHAP scores provided enough unique predictive power that they should have been kept to maximize accuracy.
 
-## **Next steps**
+## 🌱 **Next steps**
 1. **Deployment preparation**: Tuned Gradient Boost Regressor model is the winner in the model selection with R^2 score of around 90%. Next steps must be praparation for Deployment into the real world. There should be a performance monitoring setup as well.
 2. **Focus on Outliers**: The large gap between the best RMSE (4358) and MAE (2508) indicates significant outlier issues that need investigation.
 3. **Continuous Feature Enhancement**: Based on the outlier analysis as said above, prioritize collecting new, domain-specific data that might explain the current large errors.
 
-## **Outline of project**
+## 📝 **Outline of project**
 
 The Jupyter Notebook containing the analysis of the problem can be found here: [Notebook](https://github.com/sreela-gopi/Capstone_Assignment/blob/main/Capstone_Assignment_Initial_Report.ipynb)<br>
 The dataset provided for the analysis can be found here : [Dataset](https://github.com/sreela-gopi/Capstone_Assignment/blob/main/data/medical_insurance.csv)
 
 
-### **Contact and Further Information**
+### ℹ️ **Contact and Further Information**
 
 #### **Tech Stack**
 
