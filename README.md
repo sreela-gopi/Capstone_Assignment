@@ -79,7 +79,7 @@ Test set forpermance of the best model selected Gradient Boost Regressor is as b
 **Actionable Insights from Bivariate Analysis:**<br>
 1. **Impact of Smoker status on Charges**: Smoking status is a primary driver of their insurance costs. Insurance company could develop targeted wellness programs to encourage smoking cessation. Offering premium discounts or other rewards for non-smokers could also be a strategy to manage costs and promote healthier lifestyles among policyholders. This could lead to a potentially lower future claims.
 2. **The Minimal Impact of Sex and Region**: There is no significant difference in medical charges between genders or across regions, these factors are not strong predictors of charges. So the insurance company could focus of other factors primarily.
-3. **Target Gigh-risk regions for smoker intervention**: The interaction between the Southeast region and smoker status should be treated as a high-risk group that requires the highest pricing adjustment.
+3. **Target High-risk regions for smoker intervention**: The interaction between the Southeast region and smoker status should be treated as a high-risk group that requires the highest pricing adjustment.
 4. **Addressing Potential Bias**: The lower BMI in smokers might be due to smoking's effect on metabolism. Health interventions must not be focusing solely on BMI as the primary metric for smokers, but rather prioritize cessation first, while monitoring for potential post-cessation weight gain which is a common side effect.
 
 **Actionable Insights from Model Evaluation**:<br>
@@ -132,7 +132,7 @@ This project follows **CRISP-DM** framework. The methodologies used within this 
     * **Evaluation Metrics**: RMSE, MAE, R^2
 
 ## 📈 **Results**
-Here is the detailed comparison and interpretation of the Cross Validation results before and after hyperparameter tuning,  and selecting the best performing model.<br>
+Here is the detailed comparison and interpretation of the **Cross Validation results** before and after hyperparameter tuning,  and selecting the best performing model.<br>
 
 ![Alt text](images/tuning_compare.png)<br>
 
