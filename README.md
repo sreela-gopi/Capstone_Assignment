@@ -1,4 +1,4 @@
-# **Predicting Medical Insurance Cost for an Insurance Company**
+#  **Predicting Medical Insurance Cost for an Insurance Company**
 
 ✍ **Sreela Gopi**
 
@@ -12,7 +12,7 @@ Insurance companies invests a lot of time, effort, and money in creating models 
 The purposes of this project is to look into different features to observe their relationship to predict individual medical costs billed by health insurance.
 ### 📊 **Findings**
 
-**Findings from Exploratory Data Analysis(EDA)**
+**Findings from Exploratory Data Analysis(EDA):**
 1. **Age**: The distribution of age is quite varied.The average age of policy holders is 39 years. The data shows a wide range from a minimum of 18 to a maximum of 64 years.
 2. **BMI**: The average BMI is around 30.6, which falls into the obese range (30.0 or higher) according to the WHO. The values range from 15.96 to 53.1
 3. **Children**: The number of children per policyholder ranges from 0 to 5. The average number of children is 1 and a significant portion of the population has few to no children.
@@ -36,7 +36,9 @@ The purposes of this project is to look into different features to observe their
 **Findings from Model training and evaluation:**
 
 The models used for training the data are **Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor and Gradient Boost Regressor**.
+
 The Cross Validation Results interpretation of the Hyperparameter tuned models are as below:<br>
+
 **1. Overall Model Ranking and Selection** <br>
 
 *  **Best Model:** The **Gradient Boost Regressor (GBR)** achieved the lowest error after tuning, with a Mean RMSE of $4587.45. This confirms it's the optimal model for this dataset.
@@ -108,30 +110,30 @@ This whole project could be boiled down to the following research question:
 
 
 ## 🗂️ **Data Sources**
-The dataset used in this project is sourced from Kaggle and can be accessed [here]
-(https://www.kaggle.com/datasets/rahulvyasm/medical-insurance-cost-prediction)
+The dataset used in this project is sourced from Kaggle and can be accessed [here](https://www.kaggle.com/datasets/rahulvyasm/medical-insurance-cost-prediction)
 
 
 ## ⚙️ **Methodology**
 
 This project follows **CRISP-DM** framework. The methodologies used within this framework are:
 1. **Data Understanding**
-  * **Exploratory Data Analysis (EDA)** : EDA is performed to understand the data's structure, identify key variables influencing costs, and detect necessary data cleaning or transformation steps before modeling.
+    * **Exploratory Data Analysis (EDA)** : EDA is performed to understand the data's structure, identify key variables influencing costs, and detect necessary data cleaning or transformation steps before modeling.
 2. **Data Preparation**
-  * **Train/Test split**: Training data is split before data preprocessing in order to prevent data leakage
-  * **One-Hot Encoding**: For encoding categorical features to numerical.
-  * **Feature Engineering**: Exploring if new informative columns can be created from the existing columns which can be important in deciding the insurance charges and improve the performance of the model.
-  * **Polynomial Transformation**: To capture the non-linear relationship between the features and target variable.
+    * **Train/Test split**: Training data is split before data preprocessing in order to prevent data leakage
+    * **One-Hot Encoding**: For encoding categorical features to numerical.
+    * **Feature Engineering**: Exploring if new informative columns can be created from the existing columns which can be important in deciding the insurance charges and improve the performance of the model.
+    * **Polynomial Transformation**: To capture the non-linear relationship between the features and target variable.
 3. **Modeling**:
-  * **Model Training**: Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor, Gradient Boost Regressor
-  * **Hyper Parameter Tuning (GridSearchCV)**: To find the optimumn parameters of the models for the best performance.
-  * **k-fold Cross Validation**: For a more reliable estimate of the models' performance on unseen data than a simple train-test split.
-  * ** Feature Selection - SHAP**: To select the most relevant features based on the feature importance.
+    * **Model Training**: Linear Regression, Ridge Regression, Lasso Regression, Random Forest Regressor, Gradient Boost Regressor
+    * **Hyper Parameter Tuning (GridSearchCV)**: To find the optimumn parameters of the models for the best performance.
+    * **k-fold Cross Validation**: For a more reliable estimate of the models' performance on unseen data than a simple train-test split.
+    * **Feature Selection - SHAP**: To select the most relevant features based on the feature importance.
 4. **Evaluation**:
-  * **Evaluation Metrics**: RMSE, MAE, R^2
+    * **Evaluation Metrics**: RMSE, MAE, R^2
 
 ## 📈 **Results**
 Here is the detailed comparison and interpretation of the Cross Validation results before and after hyperparameter tuning,  and selecting the best performing model.<br>
+
 ![Alt text](images/tuning_compare.png)<br>
 
 #### **Key Findings:**<br>
@@ -158,6 +160,7 @@ The visualization clearly compares the performance of five different regression 
 * **Linear Models**: RMSE Increased (Worsened)
 
 Below is the test set performance across all model stages.<br>
+
 ![Alt text](images/model_compare.png)<br>
 
 #### **Key Findings:** <br>
@@ -181,7 +184,7 @@ The dataset provided for the analysis can be found here : [Dataset](https://gith
 
 ### ℹ️ **Contact and Further Information**
 
-#### **Tech Stack**
+#### **Tech Stack:**
 
 **Python:** Pandas, NumPy, scikit-learn <br>
 **Data Visualization:** Matplotlib, Seaborn
