@@ -10,7 +10,7 @@ The goal of this project is to build a Machine Learning model that can predict m
 #### **Problem Context:**
 Insurance companies invests a lot of time, effort, and money in creating models that accurately predicts health care costs.
 The purposes of this project is to look into different features to observe their relationship to predict individual medical costs billed by health insurance.
-### 📊 **Findings**
+### **Findings**
 
 **Findings from Exploratory Data Analysis(EDA):**
 1. **Age**: The distribution of age is quite varied.The average age of policy holders is 39 years. The data shows a wide range from a minimum of 18 to a maximum of 64 years.
@@ -59,12 +59,12 @@ Test set forpermance of the best model selected Gradient Boost Regressor is as b
 
 #### **Conclusion:** <br>
 
-**🏆 Best Model : Gradient Boosting Regressor** <br>
+**Best Model : Gradient Boosting Regressor** 🏆 <br>
 1. Gradient Boosting Regressor consistently outperformed the other models during cross-validation and demonstrated strong performance on the final, unseen test set.
 2. A test RMSE of 4,358.44 and a test MAE of 2,507.68 are both very strong indicators of a high-performing model. It demonstrates that our chosen model, the Gradient Boosting Regressor, is both accurate on average and robust enough to handle the complexity and variability in the data.
 3. A R2 score of 0.8966 explains nearly 90% of the variance in the target variable insurance charges. This is an excellent result and confirms that the feature engineering and the model's complex structure are highly successful in fitting the underlying patterns of the data.
 
-### 💡 **Actionable Insights to Business**
+### **Actionable Insights to Business**
 **Actionable Insights from Univariate Analysis:**<br>
 1. **Charges**: The insurance company should focus on risk management for high-cost individuals. Since a small portion of the policyholders accounts for a disproportionately large share of the total medical costs, developing targeted programs for those groups could significantly reduce overall payout.
 2. **Age**: The age distribution of policyholders is fairly even. So the compoany's marketing strategies must be appealing to all age groups.
