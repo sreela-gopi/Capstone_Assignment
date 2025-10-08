@@ -57,7 +57,7 @@ Test set forpermance of the best model selected Gradient Boost Regressor is as b
 
 #### **Conclusion:** <br>
 
-🏆 ** Best Model : Gradient Boosting Regressor** <br>
+** 🏆 Best Model : Gradient Boosting Regressor** <br>
 1. Gradient Boosting Regressor consistently outperformed the other models during cross-validation and demonstrated strong performance on the final, unseen test set.
 2. A test RMSE of 4,358.44 and a test MAE of 2,507.68 are both very strong indicators of a high-performing model. It demonstrates that our chosen model, the Gradient Boosting Regressor, is both accurate on average and robust enough to handle the complexity and variability in the data.
 3. A R2 score of 0.8966 explains nearly 90% of the variance in the target variable insurance charges. This is an excellent result and confirms that the feature engineering and the model's complex structure are highly successful in fitting the underlying patterns of the data.
