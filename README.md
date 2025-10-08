@@ -178,7 +178,7 @@ Below is the test set performance across all model stages.<br>
 
 ## 📝 **Outline of project**
 
-The Jupyter Notebook containing the analysis of the problem can be found here: [Notebook](https://github.com/sreela-gopi/Capstone_Assignment/blob/main/Capstone_Assignment_Initial_Report.ipynb)<br>
+The Jupyter Notebook containing the analysis of the problem can be found here: [Notebook](https://github.com/sreela-gopi/Capstone_Assignment/blob/main/Capstone_Assignment_Final_Report.ipynb)<br>
 The dataset provided for the analysis can be found here : [Dataset](https://github.com/sreela-gopi/Capstone_Assignment/blob/main/data/medical_insurance.csv)
 
 
